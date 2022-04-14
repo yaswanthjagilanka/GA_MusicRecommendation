@@ -67,11 +67,6 @@ vector<vector<int> > readfile(string filename){
     vector<int> temp;
 
     ifstream input_file(filename);
-    // if (!input_file.is_open()) {
-    //     cerr << "Could not open the file - '"
-    //          << filename << "'" << endl;
-    //     return EXIT_FAILURE;
-    // }
     int count=0;
     while (input_file >> number) {
         if (count == 1280){
@@ -97,16 +92,6 @@ int main()
     int n = 3;
     float value = 0;
     clock_t begin = clock();
- 
-    // Create a vector of size n with
-    // all values as 10.
-    vector<vector<int> > vect1(5000, vector<int>(1280, 10));
-    vector<vector<int> > vect3(5000, vector<int>(1280, 10));
-    vector<int> vect2(1280, 15);
-    vector<vector<float> > out(5000,vector<float> (5000,1)); 
- 
-    value = cosine_similarity(vect2,vect2,1280);
-
 
     // Read Class A data
     vector<vector<int> > class_data_A;
