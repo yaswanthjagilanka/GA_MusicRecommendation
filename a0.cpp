@@ -89,8 +89,6 @@ vector<vector<int> > readfile(string filename){
  
 int main()
 {
-    int n = 3;
-    float value = 0;
     clock_t begin = clock();
 
     // Read Class A data
