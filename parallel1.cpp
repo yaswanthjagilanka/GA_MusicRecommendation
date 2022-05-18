@@ -77,17 +77,17 @@ int main(int argc, char* argv[]) {
 
     // Read Class A data
     vector<vector<int> > class_data_A;
-    string filename("/user/yjagilan/genetic_algo/drive_data/classA137data.txt");
+    string filename("/user/yjagilan/genetic_algo/drive_data_1/classA137data.txt");
     class_data_A = readfile(filename);
 
     // Read Class B data
     vector<vector<int> > class_data_B;
-    string filename1("/user/yjagilan/genetic_algo/drive_data/classB0data.txt");
+    string filename1("/user/yjagilan/genetic_algo/drive_data_1/classB0data.txt");
     class_data_B = readfile(filename1);
 
     // // Read population data
     vector<vector<int> > populationdata;
-    string filename2("/user/yjagilan/genetic_algo/drive_data/populationdata.txt");
+    string filename2("/user/yjagilan/genetic_algo/drive_data_1/populationdata.txt");
     populationdata = readfile(filename2);
     populationdata.resize(n);
 

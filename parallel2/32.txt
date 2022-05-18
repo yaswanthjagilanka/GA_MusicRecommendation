@@ -1,0 +1,65 @@
+genetic_algo_v1_n32_i1.stdout:Sample Size = 500
+genetic_algo_v1_n32_i1.stdout:0.144591
+genetic_algo_v1_n32_i1.stdout:Sample Size = 1000
+genetic_algo_v1_n32_i1.stdout:0.141871
+genetic_algo_v1_n32_i1.stdout:Sample Size = 2000
+genetic_algo_v1_n32_i1.stdout:0.275521
+genetic_algo_v1_n32_i1.stdout:Sample Size = 4000
+genetic_algo_v1_n32_i1.stdout:0.541675
+genetic_algo_v1_n32_i1.stdout:Sample Size = 8000
+genetic_algo_v1_n32_i1.stdout:1.09256
+genetic_algo_v1_n32_i1.stdout:Sample Size = 16000
+genetic_algo_v1_n32_i1.stdout:2.23929
+genetic_algo_v1_n32_i1.stdout:Sample Size = 17100
+genetic_algo_v1_n32_i1.stdout:2.32674
+genetic_algo_v1_n32_i2.stdout:Sample Size = 500
+genetic_algo_v1_n32_i2.stdout:0.134745
+genetic_algo_v1_n32_i2.stdout:Sample Size = 1000
+genetic_algo_v1_n32_i2.stdout:0.144147
+genetic_algo_v1_n32_i2.stdout:Sample Size = 2000
+genetic_algo_v1_n32_i2.stdout:0.257124
+genetic_algo_v1_n32_i2.stdout:Sample Size = 4000
+genetic_algo_v1_n32_i2.stdout:0.459091
+genetic_algo_v1_n32_i2.stdout:Sample Size = 8000
+genetic_algo_v1_n32_i2.stdout:0.786741
+genetic_algo_v1_n32_i2.stdout:Sample Size = 16000
+genetic_algo_v1_n32_i2.stdout:1.56805
+genetic_algo_v1_n32_i2.stdout:Sample Size = 17100
+genetic_algo_v1_n32_i2.stdout:1.62993
+genetic_algo_v1_n32_i3.stdout:Sample Size = 500
+genetic_algo_v1_n32_i3.stdout:0.139391
+genetic_algo_v1_n32_i3.stdout:Sample Size = 1000
+genetic_algo_v1_n32_i3.stdout:0.14663
+genetic_algo_v1_n32_i3.stdout:Sample Size = 2000
+genetic_algo_v1_n32_i3.stdout:0.274138
+genetic_algo_v1_n32_i3.stdout:Sample Size = 4000
+genetic_algo_v1_n32_i3.stdout:0.578069
+genetic_algo_v1_n32_i3.stdout:Sample Size = 8000
+genetic_algo_v1_n32_i3.stdout:1.18246
+genetic_algo_v1_n32_i3.stdout:Sample Size = 16000
+genetic_algo_v1_n32_i3.stdout:2.23609
+genetic_algo_v1_n32_i3.stdout:Sample Size = 17100
+genetic_algo_v1_n32_i3.stdout:2.39268
+genetic_algo_v1_n32_i4.stdout:Sample Size = 500
+genetic_algo_v1_n32_i4.stdout:0.172447
+genetic_algo_v1_n32_i4.stdout:Sample Size = 1000
+genetic_algo_v1_n32_i4.stdout:0.144585
+genetic_algo_v1_n32_i4.stdout:Sample Size = 2000
+genetic_algo_v1_n32_i4.stdout:0.256352
+genetic_algo_v1_n32_i4.stdout:Sample Size = 4000
+genetic_algo_v1_n32_i4.stdout:0.403173
+genetic_algo_v1_n32_i4.stdout:Sample Size = 8000
+genetic_algo_v1_n32_i4.stdout:0.774945
+genetic_algo_v1_n32_i4.stdout:Sample Size = 16000
+genetic_algo_v1_n32_i4.stdout:1.57019
+genetic_algo_v1_n32_i4.stdout:Sample Size = 17100
+genetic_algo_v1_n32_i4.stdout:1.65349
+genetic_algo_v1_n32_i5.stdout:Sample Size = 500
+genetic_algo_v1_n32_i5.stdout:0.14821
+genetic_algo_v1_n32_i5.stdout:Sample Size = 1000
+genetic_algo_v1_n32_i5.stdout:0.145757
+genetic_algo_v1_n32_i5.stdout:Sample Size = 2000
+genetic_algo_v1_n32_i5.stdout:0.259895
+genetic_algo_v1_n32_i5.stdout:Sample Size = 4000
+genetic_algo_v1_n32_i5.stdout:0.419365
+genetic_algo_v1_n32_i5.stdout:Sample Size = 8000

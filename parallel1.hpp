@@ -47,7 +47,9 @@ vector<float> main_runner(vector<vector<int> > class_data, vector<vector<int> > 
     sort(mean_values.begin(), mean_values.end());
 
     // return the first 100 values
-    return mean_values;
+    vector<float> v2;
+    v2 = std::vector<float>(mean_values.begin(),mean_values.begin() + 15);
+    return v2;
 
 }
 
@@ -76,11 +78,26 @@ void isort(vector<vector<int> > class_data_A,vector<vector<int> > class_data_B, 
             new_population.push_back(populationdata[i]);
         }
 
-        main_runner(class_data_B,new_population);
-        main_runner(class_data_A,new_population);
-        main_runner(class_data_B,new_population);
-        main_runner(class_data_A,new_population);
+        vector<float> out_a;
+        vector<float> out_b;
+        vector<float> recv_a(15,0);
+        vector<float> recv_b(15,0);
+
+        out_a = main_runner(class_data_B,new_population);
+        out_b = main_runner(class_data_A,new_population);
+
+        for(i=1;i<size;i++){
+            MPI_Recv(&recv_a[0], 15, MPI_FLOAT, i, i, comm,MPI_STATUS_IGNORE);
+            MPI_Recv(&recv_b[0], 15, MPI_FLOAT, i, i*i+i+1, comm,MPI_STATUS_IGNORE);
+            out_a.insert(out_a.end(), recv_a.begin(), recv_a.end());
+            out_b.insert(out_b.end(), recv_b.begin(), recv_b.end());
+        }
         
+        // Send the count vector to all the other size-1 processors
+        for(i=1;i<size;i++){
+            MPI_Send(&out_a[0], 15*size, MPI_FLOAT, i, i*i*3+2*i, comm);
+            MPI_Send(&out_b[0], 15*size, MPI_FLOAT, i, i*i*3+9*i, comm);
+        }
 
 
     }
@@ -93,10 +110,23 @@ void isort(vector<vector<int> > class_data_A,vector<vector<int> > class_data_B, 
             new_population.push_back(populationdata[i]);
         }
 
-        main_runner(class_data_B,new_population);
-        main_runner(class_data_A,new_population);
-        main_runner(class_data_B,new_population);
-        main_runner(class_data_A,new_population);
+        vector<float> out_a;
+        vector<float> out_b;
+        vector<float> final_a(15*size,0);
+        vector<float> final_b(15*size,0);
+        
+
+        out_a = main_runner(class_data_B,new_population);
+        out_b = main_runner(class_data_A,new_population);
+
+        //  Send the data in vector1 with count to Rank 0 for final aggregation
+        MPI_Send(&out_a[0],15,MPI_FLOAT,0,rank,comm);
+        MPI_Send(&out_b[0],15,MPI_FLOAT,0,rank*rank+rank+1,comm);
+
+        // Receive the final count to be populated in each of the Ranks
+        MPI_Recv(&final_a[0], 15*size, MPI_FLOAT, 0, rank*rank*3+2*rank, comm,MPI_STATUS_IGNORE);
+        MPI_Recv(&final_b[0], 15*size, MPI_FLOAT, 0, rank*rank*3+9*rank, comm,MPI_STATUS_IGNORE);
+
 
     }
 

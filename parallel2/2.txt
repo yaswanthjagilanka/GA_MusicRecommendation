@@ -1,0 +1,56 @@
+genetic_algo_v1_n2_i2.stdout:Sample Size = 500
+genetic_algo_v1_n2_i2.stdout:0.731469
+genetic_algo_v1_n2_i2.stdout:Sample Size = 1000
+genetic_algo_v1_n2_i2.stdout:1.38806
+genetic_algo_v1_n2_i2.stdout:Sample Size = 2000
+genetic_algo_v1_n2_i2.stdout:2.84384
+genetic_algo_v1_n2_i2.stdout:Sample Size = 4000
+genetic_algo_v1_n2_i2.stdout:5.56385
+genetic_algo_v1_n2_i2.stdout:Sample Size = 8000
+genetic_algo_v1_n2_i2.stdout:11.0227
+genetic_algo_v1_n2_i2.stdout:Sample Size = 16000
+genetic_algo_v1_n2_i2.stdout:22.0308
+genetic_algo_v1_n2_i2.stdout:Sample Size = 17100
+genetic_algo_v1_n2_i2.stdout:23.5043
+genetic_algo_v1_n2_i3.stdout:Sample Size = 500
+genetic_algo_v1_n2_i3.stdout:0.695991
+genetic_algo_v1_n2_i3.stdout:Sample Size = 1000
+genetic_algo_v1_n2_i3.stdout:1.41542
+genetic_algo_v1_n2_i3.stdout:Sample Size = 2000
+genetic_algo_v1_n2_i3.stdout:2.81117
+genetic_algo_v1_n2_i3.stdout:Sample Size = 4000
+genetic_algo_v1_n2_i3.stdout:5.55843
+genetic_algo_v1_n2_i3.stdout:Sample Size = 8000
+genetic_algo_v1_n2_i3.stdout:10.9766
+genetic_algo_v1_n2_i3.stdout:Sample Size = 16000
+genetic_algo_v1_n2_i3.stdout:22.1859
+genetic_algo_v1_n2_i3.stdout:Sample Size = 17100
+genetic_algo_v1_n2_i3.stdout:23.5151
+genetic_algo_v1_n2_i4.stdout:Sample Size = 500
+genetic_algo_v1_n2_i4.stdout:0.725578
+genetic_algo_v1_n2_i4.stdout:Sample Size = 1000
+genetic_algo_v1_n2_i4.stdout:1.38658
+genetic_algo_v1_n2_i4.stdout:Sample Size = 2000
+genetic_algo_v1_n2_i4.stdout:2.781
+genetic_algo_v1_n2_i4.stdout:Sample Size = 4000
+genetic_algo_v1_n2_i4.stdout:5.56016
+genetic_algo_v1_n2_i4.stdout:Sample Size = 8000
+genetic_algo_v1_n2_i4.stdout:10.9712
+genetic_algo_v1_n2_i4.stdout:Sample Size = 16000
+genetic_algo_v1_n2_i4.stdout:22.2393
+genetic_algo_v1_n2_i4.stdout:Sample Size = 17100
+genetic_algo_v1_n2_i4.stdout:23.6764
+genetic_algo_v1_n2_i5.stdout:Sample Size = 500
+genetic_algo_v1_n2_i5.stdout:0.694771
+genetic_algo_v1_n2_i5.stdout:Sample Size = 1000
+genetic_algo_v1_n2_i5.stdout:1.38775
+genetic_algo_v1_n2_i5.stdout:Sample Size = 2000
+genetic_algo_v1_n2_i5.stdout:2.78272
+genetic_algo_v1_n2_i5.stdout:Sample Size = 4000
+genetic_algo_v1_n2_i5.stdout:5.62792
+genetic_algo_v1_n2_i5.stdout:Sample Size = 8000
+genetic_algo_v1_n2_i5.stdout:11.0041
+genetic_algo_v1_n2_i5.stdout:Sample Size = 16000
+genetic_algo_v1_n2_i5.stdout:22.1997
+genetic_algo_v1_n2_i5.stdout:Sample Size = 17100
+genetic_algo_v1_n2_i5.stdout:23.5717
